@@ -11,9 +11,8 @@ function Layout({ children }) {
           content="initial-scale=1.0, width=device-width"
         ></meta>
       </Head>
-      <Navigation />
+
       <main>{children}</main>
-      <footer>designed by Ahmet</footer>
     </div>
   )
 }
